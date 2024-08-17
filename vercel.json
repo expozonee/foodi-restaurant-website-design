@@ -10,11 +10,27 @@
       "use": "@vercel/static"
     },
     {
-      "src": "public/**/**",
+      "src": "public/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "scripts/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/styles.css",
+      "dest": "/styles.css"
+    },
+    {
+      "src": "/public/(.*)",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/scripts/(.*)",
+      "dest": "/scripts/$1"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.html"
