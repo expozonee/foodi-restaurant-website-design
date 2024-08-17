@@ -5,10 +5,7 @@
       "src": "index.html",
       "use": "@vercel/static"
     },
-    {
-      "src": "styles.css",
-      "use": "@vercel/static"
-    },
+
     {
       "src": "scripts/*",
       "use": "@vercel/static"
