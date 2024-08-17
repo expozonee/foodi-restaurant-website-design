@@ -208,10 +208,17 @@ footer {
   gap: 1em;
 }
 
+.welcome-section-cta h1 {
+  width: 85%;
+}
+
 .welcome-section-cta p {
   padding-block: 1.5em;
   font-size: 1.5em;
   color: var(--dark-gray-color);
+  width: 85%;
+  font-weight: 600;
+  line-height: 1.6em;
 }
 
 .welcome-section-cta-buttons {
