@@ -15,6 +15,11 @@
   --super-light-green-color: #edffef;
 }
 
+html {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
