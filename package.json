@@ -1,0 +1,19 @@
+{
+  "name": "foodi-restaurant-website-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expozonee/foodi-restaurant-website-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expozonee/foodi-restaurant-website-design/issues"
+  },
+  "homepage": "https://github.com/expozonee/foodi-restaurant-website-design#readme"
+}
