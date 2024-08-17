@@ -238,6 +238,9 @@ footer {
   border-radius: 10em;
   height: 3em;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-section-cta-buttons button:nth-child(2) {
