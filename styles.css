@@ -169,6 +169,28 @@ footer {
   cursor: pointer;
 }
 
+.cart-icon {
+  position: relative;
+}
+
+.cart-counter {
+  position: absolute;
+  top: -7px;
+  right: -9px;
+  padding: 0.1em;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
 .welcome-section {
   width: 80%;
   margin: 0 auto;
