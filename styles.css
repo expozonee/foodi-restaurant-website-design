@@ -5,6 +5,7 @@
   --primary-color: #39db4a;
   --secondary-color: #ffe605;
   --white-color: #fff;
+  --button-gray-color: #4d4d4d;
   --dark-gray-color: #515151;
   --gray-color: #555555;
   --light-gray-color: #efefef;
@@ -166,7 +167,6 @@ footer {
   right: -14px;
   border-radius: 15%;
   transform: rotate(213deg);
-  /* clip-path: polygon(0% 0%, 100% 0%, 50% 100%); */
   clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
 }
 
@@ -213,6 +213,8 @@ footer {
   font-size: 0.8em;
 }
 
+/* welcome section */
+
 .welcome-section {
   width: 80%;
   margin: 0 auto;
@@ -253,7 +255,7 @@ footer {
   color: var(--white-color);
   padding: 1em 2em;
   border-radius: 10em;
-  height: 3em;
+  height: 3.1em;
   align-self: center;
   display: flex;
   justify-content: center;
@@ -262,10 +264,14 @@ footer {
 
 .welcome-section-cta-buttons button:nth-child(1) {
   box-shadow: 3px 10px 34px rgba(57, 219, 74, 0.5);
+  font-size: 1.2em;
 }
 .welcome-section-cta-buttons button:nth-child(2) {
   background-color: var(--white-color);
-  color: black;
+  color: var(--button-gray-color);
+  letter-spacing: 0.02em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .welcome-section-cta-buttons button:nth-of-type(3) {
