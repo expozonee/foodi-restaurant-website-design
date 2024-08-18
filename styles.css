@@ -69,6 +69,24 @@ img {
   width: 90%;
 }
 
+img[logo] {
+  width: 109px;
+}
+
+img[icon] {
+  width: unset;
+}
+
+img[story-icon] {
+  width: 4em;
+  height: 4em;
+}
+
+img[social-icon] {
+  /* width: 18px; */
+  height: 29px;
+}
+
 button {
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -243,6 +261,9 @@ footer {
   align-items: center;
 }
 
+.welcome-section-cta-buttons button:nth-child(1) {
+  box-shadow: 3px 10px 34px rgba(57, 219, 74, 0.5);
+}
 .welcome-section-cta-buttons button:nth-child(2) {
   background-color: var(--white-color);
   color: black;
