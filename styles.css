@@ -248,6 +248,23 @@ footer {
   color: black;
 }
 
+.welcome-section-cta-buttons button:nth-of-type(3) {
+  background-color: var(--white-color);
+  color: black;
+  border-radius: 100%;
+  padding: 0.8em;
+  width: 5em;
+  height: 5em;
+  box-shadow: 3px 27px 34px rgb(187, 187, 187);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-section-cta-buttons button:nth-of-type(3) i {
+  font-size: 1.8em;
+}
+
 .welcome-section-cta-buttons svg {
   box-shadow: 3px 27px 34px rgb(187, 187, 187);
   border-radius: 100%;
@@ -456,6 +473,13 @@ footer {
   right: 1.5em;
 }
 
+.card.dish i {
+  font-size: 1.5em;
+  top: 1em !important;
+  right: 1em !important;
+  color: var(--white-color);
+}
+
 .img-container.dish {
   background-color: unset;
   border-radius: unset;
@@ -484,6 +508,12 @@ footer {
 .price-rating .rating {
   display: flex;
   gap: 0.5em;
+}
+
+.rating i {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
 }
 
 /* testimonials */
@@ -614,6 +644,10 @@ footer {
 .star-rating {
   display: flex;
   gap: 0.5em;
+}
+
+.star-rating i {
+  font-size: 1.5em;
 }
 
 .rating-feedback p {

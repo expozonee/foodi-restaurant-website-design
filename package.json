@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/expozonee/foodi-restaurant-website-design/issues"
   },
-  "homepage": "https://github.com/expozonee/foodi-restaurant-website-design#readme"
+  "homepage": "https://github.com/expozonee/foodi-restaurant-website-design#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0"
+  }
 }
