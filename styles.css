@@ -83,8 +83,7 @@ img[story-icon] {
 }
 
 img[social-icon] {
-  /* width: 18px; */
-  height: 29px;
+  height: 1.6em;
 }
 
 button {
